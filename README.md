@@ -1,5 +1,5 @@
 # Proyecto-OIDs
-Scripts for obtaining QOS OIDs on Cisco interfaces
+Scripts for obtaining QOS OIDs on Cisco interfaces.
 The proyect is a convoluted mess that probably only works in my environment. 
 It was also my first time coding in Python after learning the basics.
 
