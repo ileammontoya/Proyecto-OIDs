@@ -1,0 +1,177 @@
+#Hostname
+system.sysName.0 : DISPLAY STRING- (ascii):  ANGTGTANN1D1EBT1.telgua.com.gt
+
+
+#Indice de las interfaces
+interfaces.ifTable.ifEntry.ifDescr.1 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/1
+interfaces.ifTable.ifEntry.ifDescr.2 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/2
+interfaces.ifTable.ifEntry.ifDescr.3 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/3
+interfaces.ifTable.ifEntry.ifDescr.4 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/4
+interfaces.ifTable.ifEntry.ifDescr.5 : DISPLAY STRING- (ascii):  GigabitEthernet5/1
+interfaces.ifTable.ifEntry.ifDescr.6 : DISPLAY STRING- (ascii):  GigabitEthernet5/2
+interfaces.ifTable.ifEntry.ifDescr.7 : DISPLAY STRING- (ascii):  Vlan1
+interfaces.ifTable.ifEntry.ifDescr.8 : DISPLAY STRING- (ascii):  EOBC0/0
+interfaces.ifTable.ifEntry.ifDescr.9 : DISPLAY STRING- (ascii):  Null0
+interfaces.ifTable.ifEntry.ifDescr.11 : DISPLAY STRING- (ascii):  Loopback0
+interfaces.ifTable.ifEntry.ifDescr.12 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/1-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.13 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/2-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.14 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/3-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.15 : DISPLAY STRING- (ascii):  Control Plane
+interfaces.ifTable.ifEntry.ifDescr.16 : DISPLAY STRING- (ascii):  unrouted VLAN 1
+interfaces.ifTable.ifEntry.ifDescr.17 : DISPLAY STRING- (ascii):  unrouted VLAN 1002
+interfaces.ifTable.ifEntry.ifDescr.18 : DISPLAY STRING- (ascii):  unrouted VLAN 1004
+interfaces.ifTable.ifEntry.ifDescr.19 : DISPLAY STRING- (ascii):  unrouted VLAN 1005
+interfaces.ifTable.ifEntry.ifDescr.20 : DISPLAY STRING- (ascii):  unrouted VLAN 1003
+interfaces.ifTable.ifEntry.ifDescr.29 : DISPLAY STRING- (ascii):  GigabitEthernet6/1
+interfaces.ifTable.ifEntry.ifDescr.30 : DISPLAY STRING- (ascii):  GigabitEthernet6/2
+interfaces.ifTable.ifEntry.ifDescr.31 : DISPLAY STRING- (ascii):  Tunnel0
+interfaces.ifTable.ifEntry.ifDescr.32 : DISPLAY STRING- (ascii):  Tunnel1
+interfaces.ifTable.ifEntry.ifDescr.33 : DISPLAY STRING- (ascii):  Tunnel5020071
+
+
+#Indice de IPs e interfaces
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.15.51.1 : INTEGER: 33
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.0.9 : INTEGER: 11
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.2.50 : INTEGER: 2
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.2.53 : INTEGER: 1
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.21.57 : INTEGER: 6
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.40.53 : INTEGER: 3
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.127.0.0.61 : INTEGER: 8
+
+
+#Indice de Calidad de Servicio aplicado a cada interfaz
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosServicePolicy.cbQosServicePolicyTable.cbQosServicePolicyEntry.cbQosIfIndex.225 : INTEGER: 15
+
+
+#Direccion en la cual se esta aplicando la politica
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosServicePolicy.cbQosServicePolicyTable.cbQosServicePolicyEntry.cbQosPolicyDirection.225 : INTEGER: input
+
+
+#Policy maps configurados en el equipo
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosPolicyMapCfg.cbQosPolicyMapCfgTable.cbQosPolicyMapCfgEntry.cbQosPolicyMapName.121174596 : DISPLAY STRING- (ascii):  RTR_CoPP
+
+
+#Class maps configurados en el equipo
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapCfg.cbQosCMCfgTable.cbQosCMCfgEntry.cbQosCMName.1593 : DISPLAY STRING- (ascii):  class-default
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapCfg.cbQosCMCfgTable.cbQosCMCfgEntry.cbQosCMName.282941058 : DISPLAY STRING- (ascii):  administracion
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapCfg.cbQosCMCfgTable.cbQosCMCfgEntry.cbQosCMName.294683310 : DISPLAY STRING- (ascii):  enrutamiento
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapCfg.cbQosCMCfgTable.cbQosCMCfgEntry.cbQosCMName.324862566 : DISPLAY STRING- (ascii):  No-deseado
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapCfg.cbQosCMCfgTable.cbQosCMCfgEntry.cbQosCMName.327488074 : DISPLAY STRING- (ascii):  ICMP
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapCfg.cbQosCMCfgTable.cbQosCMCfgEntry.cbQosCMName.373861588 : DISPLAY STRING- (ascii):  All-IP
+
+
+#Indice usando Class-maps e Interfaces
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.1 : Unsigned32: 121174596
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.65536 : Unsigned32: 324862566
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.65537 : Unsigned32: 607789396
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.65538 : Unsigned32: 1729321157
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.131072 : Unsigned32: 294683310
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.131073 : Unsigned32: 562102431
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.131074 : Unsigned32: 1653737789
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.196608 : Unsigned32: 282941058
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.196609 : Unsigned32: 571395666
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.196610 : Unsigned32: 1670859761
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.262144 : Unsigned32: 327488074
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.262145 : Unsigned32: 650787257
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.262146 : Unsigned32: 1653487193
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.327680 : Unsigned32: 373861588
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.327681 : Unsigned32: 543841249
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.327682 : Unsigned32: 1727470007
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.393216 : Unsigned32: 1593
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.393217 : Unsigned32: 1594
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosConfigIndex.225.393218 : Unsigned32: 1640509278
+
+
+#Indice Parent Classes
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.1 : Unsigned32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.65536 : Unsigned32: 1
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.65537 : Unsigned32: 65536
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.65538 : Unsigned32: 65536
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.131072 : Unsigned32: 1
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.131073 : Unsigned32: 131072
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.131074 : Unsigned32: 131072
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.196608 : Unsigned32: 1
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.196609 : Unsigned32: 196608
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.196610 : Unsigned32: 196608
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.262144 : Unsigned32: 1
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.262145 : Unsigned32: 262144
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.262146 : Unsigned32: 262144
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.327680 : Unsigned32: 1
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.327681 : Unsigned32: 327680
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.327682 : Unsigned32: 327680
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.393216 : Unsigned32: 1
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.393217 : Unsigned32: 393216
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosParentObjectsIndex.225.393218 : Unsigned32: 393216
+
+
+#Valores del Contador 64 bits - Previo a ejecutar Politicas
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyByte64.225.65536 : Counter64: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyByte64.225.131072 : Counter64: 7327149717
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyByte64.225.196608 : Counter64: 79419864
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyByte64.225.262144 : Counter64: 46323347
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyByte64.225.327680 : Counter64: 898947409
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyByte64.225.393216 : Counter64: 303014471
+
+
+#Valores del Gauge32 - Previo a ejecutar Politicas
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyBitRate.225.65536 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyBitRate.225.131072 : Gauge32: 5000
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyBitRate.225.196608 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyBitRate.225.262144 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyBitRate.225.327680 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPrePolicyBitRate.225.393216 : Gauge32: 1000
+
+
+#Valores del Contador 64 bits - Despues a ejecutar Politicas
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyByte64.225.65536 : Counter64: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyByte64.225.131072 : Counter64: 7327149717
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyByte64.225.196608 : Counter64: 79419864
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyByte64.225.262144 : Counter64: 46323347
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyByte64.225.327680 : Counter64: 898947409
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyByte64.225.393216 : Counter64: 303014471
+
+
+#Valores del Gauge32 - Despues a ejecutar Politicas
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyBitRate.225.65536 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyBitRate.225.131072 : Gauge32: 5000
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyBitRate.225.196608 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyBitRate.225.262144 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyBitRate.225.327680 : Gauge32: 0
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosClassMapStats.cbQosCMStatsTable.cbQosCMStatsEntry.cbQosCMPostPolicyBitRate.225.393216 : Gauge32: 1000
+
+
+#Object Type
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.1 : INTEGER: policymap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.65536 : INTEGER: classmap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.65537 : INTEGER: matchStatement
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.65538 : INTEGER: police
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.131072 : INTEGER: classmap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.131073 : INTEGER: matchStatement
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.131074 : INTEGER: police
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.196608 : INTEGER: classmap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.196609 : INTEGER: matchStatement
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.196610 : INTEGER: police
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.262144 : INTEGER: classmap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.262145 : INTEGER: matchStatement
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.262146 : INTEGER: police
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.327680 : INTEGER: classmap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.327681 : INTEGER: matchStatement
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.327682 : INTEGER: police
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.393216 : INTEGER: classmap
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.393217 : INTEGER: matchStatement
+cisco.ciscoMgmt.ciscoCBQosMIB.ciscoCBQosMIBObjects.cbQosObjects.cbQosObjectsTable.cbQosObjectsEntry.cbQosObjectsType.225.393218 : INTEGER: police
+
+
+#Queueing current depth
+no MIB objects contained under subtree.
+
+
+#Queueing max depth
+no MIB objects contained under subtree.
+
+
+#Queueing discards
+no MIB objects contained under subtree.
+
+
+#End

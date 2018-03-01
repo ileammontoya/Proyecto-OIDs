@@ -1,0 +1,185 @@
+echo "#Hostname" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.2.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Indice de las interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.2.1.2.2.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Indice de IPs e interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.2.1.4.20.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Indice de Calidad de Servicio aplicado a cada interfaz" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.1.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Direccion en la cual se esta aplicando la politica" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.1.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Policy maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.6.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Class maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.7.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Indice usando Class-maps e Interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.5.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Indice Parent Classes" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.5.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.15.1.1.6 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.15.1.1.7 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.15.1.1.10 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.15.1.1.11 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Object Type" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.5.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Queueing current depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.18.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Queueing max depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.18.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#Queueing discards" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.1 1.3.6.1.4.1.9.9.166.1.18.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+echo "" "" "#End" | Out-file C:\users\imontoya\Documents\Guatemala\Host_IPBAGTPBN1D1EXT1.txt -Append
+
+
+echo "#Hostname" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.2.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Indice de las interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.2.1.2.2.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Indice de IPs e interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.2.1.4.20.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Indice de Calidad de Servicio aplicado a cada interfaz" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.1.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Direccion en la cual se esta aplicando la politica" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.1.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Policy maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.6.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Class maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.7.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Indice usando Class-maps e Interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.5.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Indice Parent Classes" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.5.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.15.1.1.6 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.15.1.1.7 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.15.1.1.10 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.15.1.1.11 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Object Type" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.5.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Queueing current depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.18.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Queueing max depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.18.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#Queueing discards" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.2 1.3.6.1.4.1.9.9.166.1.18.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+echo "" "" "#End" | Out-file C:\users\imontoya\Documents\Guatemala\Host_NAYUGTTUN1D1EXT1.txt -Append
+
+
+echo "#Hostname" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.2.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Indice de las interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.2.1.2.2.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Indice de IPs e interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.2.1.4.20.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Indice de Calidad de Servicio aplicado a cada interfaz" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.1.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Direccion en la cual se esta aplicando la politica" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.1.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Policy maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.6.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Class maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.7.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Indice usando Class-maps e Interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.5.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Indice Parent Classes" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.5.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.15.1.1.6 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.15.1.1.7 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.15.1.1.10 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.15.1.1.11 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Object Type" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.5.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Queueing current depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.18.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Queueing max depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.18.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#Queueing discards" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.3 1.3.6.1.4.1.9.9.166.1.18.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+echo "" "" "#End" | Out-file C:\users\imontoya\Documents\Guatemala\Host_HUEHGTHUN1D1EXT1.txt -Append
+
+
+echo "#Hostname" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.2.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Indice de las interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.2.1.2.2.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Indice de IPs e interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.2.1.4.20.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Indice de Calidad de Servicio aplicado a cada interfaz" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.1.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Direccion en la cual se esta aplicando la politica" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.1.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Policy maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.6.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Class maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.7.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Indice usando Class-maps e Interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.5.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Indice Parent Classes" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.5.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.15.1.1.6 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.15.1.1.7 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.15.1.1.10 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.15.1.1.11 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Object Type" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.5.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Queueing current depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.18.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Queueing max depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.18.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#Queueing discards" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.4 1.3.6.1.4.1.9.9.166.1.18.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+echo "" "" "#End" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTAJN1D1EWT1.txt -Append
+
+
+echo "#Hostname" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.2.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Indice de las interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.2.1.2.2.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Indice de IPs e interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.2.1.4.20.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Indice de Calidad de Servicio aplicado a cada interfaz" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.1.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Direccion en la cual se esta aplicando la politica" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.1.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Policy maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.6.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Class maps configurados en el equipo" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.7.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Indice usando Class-maps e Interfaces" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.5.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Indice Parent Classes" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.5.1.1.4 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.15.1.1.6 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Previo a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.15.1.1.7 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Valores del Contador 64 bits - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.15.1.1.10 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Valores del Gauge32 - Despues a ejecutar Politicas" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.15.1.1.11 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Object Type" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.5.1.1.3 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Queueing current depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.18.1.1.1 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Queueing max depth" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.18.1.1.2 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#Queueing discards" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+snmpwalk -v2c -c SNMP_RO 10.10.10.5 1.3.6.1.4.1.9.9.166.1.18.1.1.5 | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+echo "" "" "#End" | Out-file C:\users\imontoya\Documents\Guatemala\Host_GNCYGTG2N1D1EWT1.txt -Append
+
+

@@ -1,0 +1,102 @@
+#Hostname
+system.sysName.0 : DISPLAY STRING- (ascii):  CHMLGTCMN1D1EBT1.telgua.com.gt
+
+
+#Indice de las interfaces
+interfaces.ifTable.ifEntry.ifDescr.1 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/1
+interfaces.ifTable.ifEntry.ifDescr.2 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/2
+interfaces.ifTable.ifEntry.ifDescr.3 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/3
+interfaces.ifTable.ifEntry.ifDescr.4 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/4
+interfaces.ifTable.ifEntry.ifDescr.5 : DISPLAY STRING- (ascii):  GigabitEthernet5/1
+interfaces.ifTable.ifEntry.ifDescr.6 : DISPLAY STRING- (ascii):  GigabitEthernet5/2
+interfaces.ifTable.ifEntry.ifDescr.7 : DISPLAY STRING- (ascii):  Vlan1
+interfaces.ifTable.ifEntry.ifDescr.8 : DISPLAY STRING- (ascii):  EOBC0/0
+interfaces.ifTable.ifEntry.ifDescr.9 : DISPLAY STRING- (ascii):  Null0
+interfaces.ifTable.ifEntry.ifDescr.11 : DISPLAY STRING- (ascii):  Loopback0
+interfaces.ifTable.ifEntry.ifDescr.12 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/1-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.13 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/2-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.14 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/3-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.15 : DISPLAY STRING- (ascii):  TenGigabitEthernet2/4-mpls layer
+interfaces.ifTable.ifEntry.ifDescr.16 : DISPLAY STRING- (ascii):  Control Plane
+interfaces.ifTable.ifEntry.ifDescr.17 : DISPLAY STRING- (ascii):  unrouted VLAN 1
+interfaces.ifTable.ifEntry.ifDescr.18 : DISPLAY STRING- (ascii):  unrouted VLAN 1002
+interfaces.ifTable.ifEntry.ifDescr.19 : DISPLAY STRING- (ascii):  unrouted VLAN 1004
+interfaces.ifTable.ifEntry.ifDescr.20 : DISPLAY STRING- (ascii):  unrouted VLAN 1005
+interfaces.ifTable.ifEntry.ifDescr.21 : DISPLAY STRING- (ascii):  unrouted VLAN 1003
+interfaces.ifTable.ifEntry.ifDescr.30 : DISPLAY STRING- (ascii):  GigabitEthernet6/1
+interfaces.ifTable.ifEntry.ifDescr.31 : DISPLAY STRING- (ascii):  GigabitEthernet6/2
+interfaces.ifTable.ifEntry.ifDescr.32 : DISPLAY STRING- (ascii):  Tunnel0
+interfaces.ifTable.ifEntry.ifDescr.33 : DISPLAY STRING- (ascii):  Tunnel1
+interfaces.ifTable.ifEntry.ifDescr.34 : DISPLAY STRING- (ascii):  Tunnel5020091
+interfaces.ifTable.ifEntry.ifDescr.36 : DISPLAY STRING- (ascii):  SPAN RP Interface
+interfaces.ifTable.ifEntry.ifDescr.37 : DISPLAY STRING- (ascii):  SPAN SP Interface
+
+
+#Indice de IPs e interfaces
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.15.51.9 : INTEGER: 34
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.0.8 : INTEGER: 11
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.2.46 : INTEGER: 2
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.2.49 : INTEGER: 3
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.2.141 : INTEGER: 1
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.21.53 : INTEGER: 6
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.10.192.40.57 : INTEGER: 4
+ip.ipAddrTable.ipAddrEntry.ipAdEntIfIndex.127.0.0.51 : INTEGER: 8
+
+
+#Indice de Calidad de Servicio aplicado a cada interfaz
+no MIB objects contained under subtree.
+
+
+#Direccion en la cual se esta aplicando la politica
+no MIB objects contained under subtree.
+
+
+#Policy maps configurados en el equipo
+no MIB objects contained under subtree.
+
+
+#Class maps configurados en el equipo
+no MIB objects contained under subtree.
+
+
+#Indice usando Class-maps e Interfaces
+no MIB objects contained under subtree.
+
+
+#Indice Parent Classes
+no MIB objects contained under subtree.
+
+
+#Valores del Contador 64 bits - Previo a ejecutar Politicas
+no MIB objects contained under subtree.
+
+
+#Valores del Gauge32 - Previo a ejecutar Politicas
+no MIB objects contained under subtree.
+
+
+#Valores del Contador 64 bits - Despues a ejecutar Politicas
+no MIB objects contained under subtree.
+
+
+#Valores del Gauge32 - Despues a ejecutar Politicas
+no MIB objects contained under subtree.
+
+
+#Object Type
+no MIB objects contained under subtree.
+
+
+#Queueing current depth
+no MIB objects contained under subtree.
+
+
+#Queueing max depth
+no MIB objects contained under subtree.
+
+
+#Queueing discards
+no MIB objects contained under subtree.
+
+
+#End
